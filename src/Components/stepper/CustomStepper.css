@@ -1,0 +1,21 @@
+.step{
+    -webkit-clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 15% 50%, 0% 0%);
+    width: 13%;
+    padding: 7px 5px 7px 17px;
+   
+}
+.activeStep{
+    background-color:#111;
+    color:white;
+}
+.completeStep{
+
+    background-color:dodgerblue;
+    color:white;
+}
+
+.incompleteStep{
+    background-color: white;
+    color:black;
+}
